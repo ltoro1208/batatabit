@@ -1,0 +1,91 @@
+:root{
+    /*---FUENTES & COLORES----------------------------------------*/
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue:#1a9af7;
+    --soft-blue:#e7f5ff;
+    --warm-black:#201e1c;
+    --warm-black-1:#282623;
+    --grey:#bababa;
+    --off-white:#faf8f7;
+    --just-white:#ffffff;
+
+    --inter-font: 'Inter', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+/*---HEADER--------------------------------------------*/
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+header img{
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+    .header--title-container{
+        width: 90%;
+        min-width: 288px;
+        max-width: 900px;
+        height: 218px;
+        margin-top: 40px;
+        text-align: center;
+        align-self: center;
+    }
+    .header--title-container h1{
+        font-size: 2.4rem;
+        font-weight: 700;
+        line-height: 2.6rem;
+        color: var(--just-white);
+    }
+    .header--title-container p{
+        margin-top: 2.5rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+        color: var(--soft-orange);
+    }
+    .header--title-container .header--button{
+        position: absolute;
+        left: calc(50% - (22.9rem/2));
+        top: 27.5rem;
+        display: block;
+        margin-top: 3.5rem;
+        padding: 1.5rem;
+        width: 22.9rem;
+        height: 4.8rem;
+        background-color: var(--off-white);
+        box-shadow: 0px 4px 8px var(--grey);
+        border: none;
+        border-radius: 5px;
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: var(--warm-black);
+    }
+    .header--button div{
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        margin-left: 10px;
+        background-image: url('./assets/icons/black-arrow-down.svg');
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size: contain;
+    }
