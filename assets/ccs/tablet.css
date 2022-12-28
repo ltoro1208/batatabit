@@ -1,0 +1,92 @@
+/*---TABLE CRYPTO & BROKERS-------------------------------------*/
+.main-tables-container{
+    justify-content: center;
+    gap: 0;
+    padding: 0 40px;
+}
+    .main-currency-table{
+        margin: 0;
+    }
+    .main-tables-container .brokers{
+        padding: 0;
+    }
+
+/*---FEATURES PRODUCT DETAIL------------------------------------*/
+.features-product--container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    .product-detail--card{
+        margin: 10px;
+    }
+
+/*---PEOPLE BITCOIN IMAGE----------------------------------------*/
+.people-bitcoin-image{
+    height: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/women-photox1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.people-bitcoin-image h2{
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.2rem;
+    margin: 0;
+    padding-top: 0;
+
+}
+
+/*---PLANS SECTION------------------------------------------------*/
+.main-tables-container{
+    margin: 0;
+}
+    .main-plans--title{
+        margin-bottom: 0px;
+    }
+    .main-plans--title h2{
+        width: 466px;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 80px;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 4.2rem;
+    }
+    .main-plans--title p{
+        width: 466px;
+        height: auto;
+        margin: 0 auto;
+        padding-top: 24px;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 2.4rem;
+    }
+
+/*---PLANS INFO----------------------------------------------------*/
+.main-plans-container--slider {
+    justify-content: center;
+}
+.plans-container--card .plans-info .plans-card--price span{
+    left: 65px;
+}
+    .plans-container--card .plans-info .usd span{
+        left: 55px;
+    }
+
+    /*---Cambio de color tarjetas exteriores-----------------------*/
+    .plans-container--card .plans-info .tablet{
+        color: #BABABA;
+    }
+    .plans-container--card .plans-info .t-but {
+        background-color: var(--just-white);
+        border-color: #BABABA;
+    }
+        .plans-container--card .plans-info .t-but span{
+            background-image: url('../icons/gray-arrow-right2.svg');    
+        }
+    /*---HOVER: Selección tarjetas exteriores----------------------*/

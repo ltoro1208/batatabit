@@ -140,15 +140,15 @@ header img{
             overflow-x: scroll;
             overscroll-behavior-x: contain;
             scroll-snap-type: x proximity;
-            padding: 0 60px;
+            padding: 0 40px;
         }
             .main-tables-container .brokers{
-                padding: 0 0 0 30px;
+                padding: 0 0 0 5px;
             }
         .main-currency-table{
             width: 70%;
             min-width: 235px;
-            max-width: 235px;
+            max-width: 300px;
             height: 300px;
             margin: 0 auto;
             font-family: var(--inter-font), sans-serif;
@@ -285,7 +285,7 @@ header img{
 .product-detail--card{
     width: 90%;
     min-width: 288px;
-    max-width: 400px;
+    max-width: 345px;
     height: 150px;
     margin: 15px auto;
     padding: 0 15px;
@@ -520,5 +520,3 @@ footer {
             text-decoration: none;
             color: var(--just-white);
         }
-
-/*MEDIA QUERIES---------------------------------------------*/
