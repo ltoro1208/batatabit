@@ -139,7 +139,7 @@ header img{
             gap: 10px;
             overflow-x: scroll;
             overscroll-behavior-x: contain;
-            scroll-snap-type: x proximity;
+            scroll-snap-type: x mandatory;
             padding: 0 40px;
         }
             .main-tables-container .brokers{
@@ -383,7 +383,7 @@ header img{
     height: 320px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
+    scroll-snap-type:x mandatory;
     gap: 10px;
 }
 
@@ -446,9 +446,9 @@ header img{
     }
         .plans-container--card .plans-info .plans-card--price span{
             position: absolute;
-            left: 50px;
+            left: calc(50% - 48px);
             top: 65px;
-            width: 8px;
+            width: 15px;
             height: 15px;
             font-weight: 500;
             font-size: 1.2rem;
@@ -456,6 +456,9 @@ header img{
             color: #363636;
             margin: 4px;
             vertical-align: 30px;
+        }
+        .plans-container--card .plans-info .plans-card--price #usd {
+            left: calc(50% - 60px);
         }
     .plans-container--card .plans-info .plans-card--saving{
         margin: 0 auto 16px;

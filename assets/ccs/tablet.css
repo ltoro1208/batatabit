@@ -3,6 +3,7 @@
     justify-content: center;
     gap: 0;
     padding: 0 40px;
+    overflow-x: unset;
 }
     .main-currency-table{
         margin: 0;
@@ -70,23 +71,9 @@
 /*---PLANS INFO----------------------------------------------------*/
 .main-plans-container--slider {
     justify-content: center;
+    height: 100%;
+    width: 100%;
+    overflow-x:unset;
 }
-.plans-container--card .plans-info .plans-card--price span{
-    left: 65px;
-}
-    .plans-container--card .plans-info .usd span{
-        left: 55px;
-    }
 
-    /*---Cambio de color tarjetas exteriores-----------------------*/
-    .plans-container--card .plans-info .tablet{
-        color: #BABABA;
-    }
-    .plans-container--card .plans-info .t-but {
-        background-color: var(--just-white);
-        border-color: #BABABA;
-    }
-        .plans-container--card .plans-info .t-but span{
-            background-image: url('../icons/gray-arrow-right2.svg');    
-        }
-    /*---HOVER: Selección tarjetas exteriores----------------------*/
+
