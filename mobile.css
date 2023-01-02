@@ -518,9 +518,11 @@ header img{
     }
     .main-container--question div{
         display: flex;
+        max-width: 500px;
         margin: 0 auto;
         width: 50%;
         align-items: center;
+        justify-content: space-between;
     }
     .main-container--question p{
         width: 334px;
@@ -543,9 +545,6 @@ header img{
         background-repeat: no-repeat;
         background-size: cover;
     }
-
-
-
 
 /*---FOOTER------------------------------------------------*/
 footer {
