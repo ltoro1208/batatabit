@@ -498,6 +498,55 @@ header img{
                 left: 40px;
             }
 
+/*---SECTION QUESTIONS-----------------------------------------*/
+.main-container--question{
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+    .main-container--question h2{
+        width: 466px;
+        height: 84px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 42px;
+        color: var(--warm-black);
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .main-container--question div{
+        display: flex;
+        margin: 0 auto;
+        width: 50%;
+        align-items: center;
+    }
+    .main-container--question p{
+        width: 334px;
+        height: auto;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #757575;
+        text-align: left;
+        margin-right: 64px;
+        margin-bottom: 16px;
+        vertical-align: center;
+    }
+    .main-container--question span{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url('./assets/icons/black-arrow-down.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+
+
 /*---FOOTER------------------------------------------------*/
 footer {
     display: flex;

@@ -39,7 +39,6 @@
     line-height: 4.2rem;
     margin: 0;
     padding-top: 0;
-
 }
 
 /*---PLANS SECTION------------------------------------------------*/
@@ -76,4 +75,8 @@
     overflow-x:unset;
 }
 
+/*---QUESTIONS-----------------------------------------------------*/
+.main-container--question{
+    display: block;
+}
 
